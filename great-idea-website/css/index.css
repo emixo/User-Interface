@@ -64,3 +64,110 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.class1 {
+	width: 800px;
+	margin: 0 auto;
+}
+
+header nav {
+	display: inline-block;
+	width: 600px;
+	margin-top: 35px;
+	vertical-align: top;
+}
+
+header nav a {
+	font-size: 15px;
+	color: gray;
+	margin-right: 60px;
+}
+header nav a:first-child {
+	margin-left: 0;
+}
+
+header nav a:last-child {
+	margin-right: 0;
+}
+
+header .logo {
+	margin-top: 25px;
+}
+
+.class2 .sectionDiv {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 120px;
+	padding: 0px 75px;
+	font-size: 77px;
+	text-align: center;
+}   
+
+.class2 .sectionDiv a {
+	background: white;
+	vertical-align: top;
+	margin-top: 4px;
+	width: 45;
+	padding-top: 2%;
+	border: 1px solid black;
+	font-size: 20px
+}
+
+.class2 img {
+	display: inline-block;
+	margin-top: 69px;
+}
+
+.webpage {
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+}
+
+.webpage .toppage {
+	padding: 0 10px;
+} 
+
+.webpage .toppage .content {
+	width: 410px;
+	display: inline-block;
+	margin-right: 34px;
+}
+
+.webpage .toppage .content:last-child {
+	margin-right: 0;
+}
+
+.webpage .middle-img {
+	margin-top: 45px;
+}
+
+.webpage .bottompage {
+	margin-top: 37px;
+	padding: 0 10px;
+}
+
+.webpage .bottompage .content {
+	width: 275px;
+	display: inline-block;
+	margin-right: 12px;
+}
+
+.webpage .bottompage .content:last-child {
+	margin-right: 0;
+}
+
+address {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+}
+
+address p {
+	margin: 20px 0;
+}
+
+footer {
+margin: 32px 0;
+text-align: center;
+font-size: 14px;
+}
